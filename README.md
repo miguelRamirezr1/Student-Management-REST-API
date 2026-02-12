@@ -28,6 +28,10 @@ This project implements a simple but complete RESTful API for a student record s
 - Thread-safe concurrent request handling
 
 ---
+**Reasons behind trunk-based development:**
+- Keep commits small and frequent
+- Consideration of feature flags if needed (though for this simple project, probably not necessary)
+- Ensure tests run before committing
 
 ## Architecture & Design Decisions
 
